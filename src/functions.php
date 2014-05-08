@@ -7,3 +7,15 @@ if (!function_exists('rar_open')) {
 		RarArchive::open($filename, $password, $volume_callback);
 	}
 }
+
+if (!function_exists('rar_close')) {
+	function rar_close($rarFile) {
+		
+	}
+}
+
+if (!function_exists('rar_comment_get')) {
+	function rar_comment_get($rarFile) {
+
+	}
+}
