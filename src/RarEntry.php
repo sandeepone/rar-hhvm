@@ -46,7 +46,7 @@ final class RarEntry {
 
 	
 	public function extract ($dir, $filepath = "", $password = NULL, $extended_data = false) {
-
+		throw new Exception("Not Implemented");
 	}
 
 	public function getAttr () {
